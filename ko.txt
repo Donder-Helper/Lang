@@ -1,0 +1,83 @@
+// Command Data
+
+COMMAND_RANDOM_NAME=random
+COMMAND_RANDOM_DESC=Select a random song.
+
+COMMAND_SONG_NAME=song
+COMMAND_SONG_DESC=Get info about a song.
+
+COMMAND_CAMPAIGN_NAME=campaign
+COMMAND_CAMPAIGN_DESC=Get the current list of active campaigns.
+
+COMMAND_SHOP_NAME=shop
+COMMAND_SHOP_DESC=Get the current active Don Medal shop.
+
+COMMAND_REGION_NAME=region
+COMMAND_REGION_DESC=Get the URL for all region locked songs.
+
+COMMAND_ABOUT_NAME=about
+COMMAND_ABOUT_DESC=Information about the bot and its resources.
+
+// Command Options
+
+OPTION_TITLE_NAME=title
+OPTION_TITLE_DESC=The title of the song.
+
+OPTION_DIFFICULTY_NAME=difficulty
+OPTION_DIFFICULTY_DESC=The specific difficulty of a song.
+
+OPTION_LEVEL_NAME=level
+OPTION_LEVEL_DESC=The difficulty level.
+
+OPTION_GENRE_NAME=genre
+OPTION_GENRE_DESC=The specific genre that a song belongs in.
+
+// Everything else
+
+AVAILABLE_TITLE=Availability
+
+AVAILABLE_NO=No
+AVAILABLE_YES=Yes
+AVAILABLE_CAMPAIGN=Campaign
+AVAILABLE_CAMPAIGNNO=Shop/Campaign (Unavailable)
+AVAILABLE_AIBATTLE=AI Battle
+AVAILABLE_SHOP=Shop
+AVAILABLE_QRCODE=QR Code
+// Regarding AVAILABLE_TRANSFER:
+// In the United States, the QR code for 彁 is blocked. But, you can still obtain the song
+// by playing with a second player who already has the song unlocked. However, it is
+// impossible to unlock the Oni-Ura difficulty this way, regardless if you play the
+// Oni-Ura or not. A QR code scan is mandatory to obtain the Oni-Ura difficulty.
+AVAILABLE_TRANSFER=Obtained from Partner
+AVAILABLE_UNKNOWN=Unknown
+
+AVAILABLE_R_JAPAN=Japan: {0} {1}
+AVAILABLE_R_ASIA=Core Asia: {0} {1}
+AVAILABLE_R_OCEANIA=Other Asia/Oceania: {0} {1}
+AVAILABLE_R_NORTHAMERICA=North America: {0} {1}
+AVAILABLE_R_CHINA=China: {0} {1}
+
+DIFFICULTY_TITLE=Difficulty
+
+DIFFICULTY_EASY=쉬움
+DIFFICULTY_NORMAL=보통
+DIFFICULTY_HARD=어려움
+DIFFICULTY_EX=귀신
+DIFFICULTY_HIDDEN=귀신 (Hidden)
+
+GENRE_POP=POP
+GENRE_KIDS=어린이 음악
+GENRE_ANIME=애니메이션
+GENRE_GAME=Game Music
+GENRE_VOCALOID=Vocaloid
+GENRE_VARIETY=Variety
+GENRE_CLASSICAL=클래식
+GENRE_NAMCO=남코 오리지널
+GENRE_UNKNOWN=Unknown
+
+URL_MISSING=-# (Unavailable <:miss:1346685481445752904>)
+
+DISCLAIMER_USERONLY=이 채널에 메시지를 보낼 수 있는 권한이 없기 때문에 이 명령은 나만 볼 수 있습니다.
+DISCLAIMER_WIP=작업이 진행 중입니다. 일부 데이터가 누락되었거나 부정확할 수 있습니다.
+DISCLAIMER_MISSING=제목 “{0}”이 누락되었거나 철자가 잘못되었습니다.
+DISCLAIMER_ERROR=:warning: 요청을 처리하는 동안 문제가 발생했습니다. 이 오류는 봇 관리자에게 전달되었습니다. <:miss:1346685481445752904>

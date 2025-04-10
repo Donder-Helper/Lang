@@ -1,0 +1,83 @@
+// Command Data
+
+COMMAND_RANDOM_NAME=random
+COMMAND_RANDOM_DESC=Select a random song.
+
+COMMAND_SONG_NAME=song
+COMMAND_SONG_DESC=Get info about a song.
+
+COMMAND_CAMPAIGN_NAME=campaign
+COMMAND_CAMPAIGN_DESC=Get the current list of active campaigns.
+
+COMMAND_SHOP_NAME=shop
+COMMAND_SHOP_DESC=Get the current active Don Medal shop.
+
+COMMAND_REGION_NAME=region
+COMMAND_REGION_DESC=Get the URL for all region locked songs.
+
+COMMAND_ABOUT_NAME=about
+COMMAND_ABOUT_DESC=Information about the bot and its resources.
+
+// Command Options
+
+OPTION_TITLE_NAME=title
+OPTION_TITLE_DESC=The title of the song.
+
+OPTION_DIFFICULTY_NAME=difficulty
+OPTION_DIFFICULTY_DESC=The specific difficulty of a song.
+
+OPTION_LEVEL_NAME=level
+OPTION_LEVEL_DESC=The difficulty level.
+
+OPTION_GENRE_NAME=genre
+OPTION_GENRE_DESC=The specific genre that a song belongs in.
+
+// Everything else
+
+AVAILABLE_TITLE=可用性
+
+AVAILABLE_NO=なし
+AVAILABLE_YES=はい
+AVAILABLE_CAMPAIGN=キャンペーン
+AVAILABLE_CAMPAIGNNO=ショップ・キャンペーン（利用不可）
+AVAILABLE_AIBATTLE=AIバトル
+AVAILABLE_SHOP=どんメダルショップ
+AVAILABLE_QRCODE=QRコード
+// Regarding AVAILABLE_TRANSFER:
+// In the United States, the QR code for 彁 is blocked. But, you can still obtain the song
+// by playing with a second player who already has the song unlocked. However, it is
+// impossible to unlock the Oni-Ura difficulty this way, regardless if you play the
+// Oni-Ura or not. A QR code scan is mandatory to obtain the Oni-Ura difficulty.
+AVAILABLE_TRANSFER=パートナーから入手
+AVAILABLE_UNKNOWN=未知
+
+AVAILABLE_R_JAPAN=日本：{0} {1}
+AVAILABLE_R_ASIA=アシア：{0} {1}
+AVAILABLE_R_OCEANIA=その他のアジア・オセアニア：{0} {1}
+AVAILABLE_R_NORTHAMERICA=北米：{0} {1}
+AVAILABLE_R_CHINA=中国：{0} {1}
+
+DIFFICULTY_TITLE=難易
+
+DIFFICULTY_EASY=かんたん
+DIFFICULTY_NORMAL=ふつう
+DIFFICULTY_HARD=むずかしい
+DIFFICULTY_EX=おに
+DIFFICULTY_HIDDEN=おに（裏）
+
+GENRE_POP=ポップス
+GENRE_KIDS=キッズ
+GENRE_ANIME=アニメ
+GENRE_GAME=ゲームミュージック
+GENRE_VOCALOID=ボーカロイド曲
+GENRE_VARIETY=バラエティ
+GENRE_CLASSICAL=クラシック
+GENRE_NAMCO=ナムコオリジナル
+GENRE_UNKNOWN=未知
+
+URL_MISSING=-# (Unavailable <:miss:1346685481445752904>)
+
+DISCLAIMER_USERONLY=私にはこのチャンネルにメッセージを送る権限がないため、このコマンドはあなただけに表示されます。
+DISCLAIMER_WIP=作業中です。一部のデータが欠落しているか、間違っている可能性があります。
+DISCLAIMER_MISSING=タイトル「{0}」がないか、スペルが間違っている。
+DISCLAIMER_ERROR=:warning: リクエストの処理中に何か問題が発生しました。このエラーはボットのメンテナに転送されました。 <:miss:1346685481445752904>
