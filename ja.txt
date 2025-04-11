@@ -18,6 +18,12 @@ COMMAND_REGION_DESC=Get the URL for all region locked songs.
 COMMAND_ABOUT_NAME=about
 COMMAND_ABOUT_DESC=Information about the bot and its resources.
 
+COMMAND_STATS_NAME=stats
+COMMAND_STATS_DESC=Get statistic about the bot and its song database.
+
+COMMAND_DAN_NAME=dan
+COMMAND_DAN_DESC=Get the current Dan Dojo courses.
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -31,6 +37,9 @@ OPTION_LEVEL_DESC=The difficulty level.
 
 OPTION_GENRE_NAME=genre
 OPTION_GENRE_DESC=The specific genre that a song belongs in.
+
+OPTION_CAMPAIGNNAME_NAME=name
+OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
 // Everything else
 
@@ -75,9 +84,55 @@ GENRE_CLASSICAL=クラシック
 GENRE_NAMCO=ナムコオリジナル
 GENRE_UNKNOWN=未知
 
-URL_MISSING=-# (Unavailable <:miss:1346685481445752904>)
+URL_MISSING=（利用不可 <:miss:1346685481445752904>）
+
+// {0} : Time remaining (as int timestamp)
+CAMPAIGN_AVAILABLE=<t:{0}:F>まで利用可能（<t:{0}:R>）
+// {0} : Season
+// {1} : Year
+CAMPAIGN_SEASON_OUTFIT_NAME=きせかえザクザクキャンペーン{1}{0}
+
+CAMPAIGN_APRILFOOLS2025_NAME=襲来！闇のマキナ（エイプリルフール2025）
+
+// {0} : # of Wins
+// {1} : ITEM_INFO value
+CAMPAIGN_AIBATTLE_DESC=合計{0}勝：{1}
+
+// {0} : Season
+// {1} : Year
+SHOP_MEDAL_NAME=どんメダルショップ{1}{0}
+// {0} : Title
+// {1} : Cost
+SHOP_MEDAL_DESC={0}・{1}どんメダル
+SHOP_MEDALHIDDEN_DESC={0}（裏）・{1}どんメダル
+// {0} : Language (in native text)
+// {1} : URL
+SHOP_MEDAL_URL=すべての曲（{0}）： {1}
+
+// {0} : Item name
+// {1} : Item type
+ITEM_INFO={1}「{0}」
+
+ITEM_SONG=曲
+ITEM_TITLE=称号
+ITEM_PUCHI=ぷちキャラ
+ITEM_FULLBODY=きぐるみ
+ITEM_HEAD=あたま
+ITEM_BODY=からだ
+ITEM_FACE=メイク
+
+SEASON_SPRING=春
+SEASON_SUMMER=夏
+SEASON_AUTUMN=秋
+SEASON_WINTER=冬
 
 DISCLAIMER_USERONLY=私にはこのチャンネルにメッセージを送る権限がないため、このコマンドはあなただけに表示されます。
 DISCLAIMER_WIP=作業中です。一部のデータが欠落しているか、間違っている可能性があります。
+DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=タイトル「{0}」がないか、スペルが間違っている。
 DISCLAIMER_ERROR=:warning: リクエストの処理中に何か問題が発生しました。このエラーはボットのメンテナに転送されました。 <:miss:1346685481445752904>
+
+// Do not use "*" for this.
+DISCLAIMER_NOUSA=＊ 北米を除くすべての地域でご利用いただけます。
+DISCLAIMER_ONLYUSA=＊ 北米でのみ利用可能です。
+DISCLAIMER_ONLYJAPAN=＊ 日本国内のみでの販売となります。

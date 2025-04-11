@@ -18,6 +18,12 @@ COMMAND_REGION_DESC=Get the URL for all region locked songs.
 COMMAND_ABOUT_NAME=about
 COMMAND_ABOUT_DESC=Information about the bot and its resources.
 
+COMMAND_STATS_NAME=stats
+COMMAND_STATS_DESC=Get statistic about the bot and its song database.
+
+COMMAND_DAN_NAME=dan
+COMMAND_DAN_DESC=Get the current Dan Dojo courses.
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -31,6 +37,9 @@ OPTION_LEVEL_DESC=The difficulty level.
 
 OPTION_GENRE_NAME=genre
 OPTION_GENRE_DESC=The specific genre that a song belongs in.
+
+OPTION_CAMPAIGNNAME_NAME=name
+OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
 // Everything else
 
@@ -75,9 +84,55 @@ GENRE_CLASSICAL=古典音樂
 GENRE_NAMCO=NAMCO原創音樂
 GENRE_UNKNOWN=未知
 
-URL_MISSING=-# (Unavailable <:miss:1346685481445752904>)
+URL_MISSING=(Unavailable <:miss:1346685481445752904>)
+
+// {0} : Time remaining (as int timestamp)
+CAMPAIGN_AVAILABLE=Available until <t:{0}:F> (<t:{0}:R>)
+// {0} : Season
+// {1} : Year
+CAMPAIGN_SEASON_OUTFIT_NAME=Oodles of Outfits Campaign {0} {1}
+
+CAMPAIGN_APRILFOOLS2025_NAME=Attack of Dark Machina! (April Fools 2025)
+
+// {0} : # of Wins
+// {1} : ITEM_INFO value
+CAMPAIGN_AIBATTLE_DESC={0} Wins: {1}
+
+// {0} : Season
+// {1} : Year
+SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
+// {0} : Title
+// {1} : Cost
+SHOP_MEDAL_DESC={0} - {1}咚幣
+SHOP_MEDALHIDDEN_DESC={0}(里) - {1}咚幣
+// {0} : Language (in native text)
+// {1} : URL
+SHOP_MEDAL_URL=All Purchasables ({0}): {1}
+
+// {0} : Item name
+// {1} : Item type
+ITEM_INFO={0} ({1})
+
+ITEM_SONG=Song
+ITEM_TITLE=稱號
+ITEM_PUCHI=Q版角色
+ITEM_FULLBODY=布偶裝
+ITEM_HEAD=頭部
+ITEM_BODY=身體
+ITEM_FACE=妝容
+
+SEASON_SPRING=Spring
+SEASON_SUMMER=Summer
+SEASON_AUTUMN=Autumn
+SEASON_WINTER=Winter
 
 DISCLAIMER_USERONLY=這個指令只有您能看見，因為我沒有權限傳送訊息到這個頻道。
 DISCLAIMER_WIP=工作進行中。部分資料可能遺漏或不正確。
+DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=標題「{0}」不是遺失，就是拼寫錯誤。
 DISCLAIMER_ERROR=:warning: 在處理您的要求時出錯了。此錯誤已轉送至機器人維護者。 <:miss:1346685481445752904>
+
+// Do not use "*" for this.
+DISCLAIMER_NOUSA=＊ Available in every region except North America.
+DISCLAIMER_ONLYUSA=＊ Available only in North America.
+DISCLAIMER_ONLYJAPAN=＊ Available only in Japan.

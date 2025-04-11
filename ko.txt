@@ -18,6 +18,12 @@ COMMAND_REGION_DESC=Get the URL for all region locked songs.
 COMMAND_ABOUT_NAME=about
 COMMAND_ABOUT_DESC=Information about the bot and its resources.
 
+COMMAND_STATS_NAME=stats
+COMMAND_STATS_DESC=Get statistic about the bot and its song database.
+
+COMMAND_DAN_NAME=dan
+COMMAND_DAN_DESC=Get the current Dan Dojo courses.
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -31,6 +37,9 @@ OPTION_LEVEL_DESC=The difficulty level.
 
 OPTION_GENRE_NAME=genre
 OPTION_GENRE_DESC=The specific genre that a song belongs in.
+
+OPTION_CAMPAIGNNAME_NAME=name
+OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
 // Everything else
 
@@ -75,9 +84,55 @@ GENRE_CLASSICAL=클래식
 GENRE_NAMCO=남코 오리지널
 GENRE_UNKNOWN=Unknown
 
-URL_MISSING=-# (Unavailable <:miss:1346685481445752904>)
+URL_MISSING=(Unavailable <:miss:1346685481445752904>)
+
+// {0} : Time remaining (as int timestamp)
+CAMPAIGN_AVAILABLE=Available until <t:{0}:F> (<t:{0}:R>)
+// {0} : Season
+// {1} : Year
+CAMPAIGN_SEASON_OUTFIT_NAME=Oodles of Outfits Campaign {0} {1}
+
+CAMPAIGN_APRILFOOLS2025_NAME=Attack of Dark Machina! (April Fools 2025)
+
+// {0} : # of Wins
+// {1} : ITEM_INFO value
+CAMPAIGN_AIBATTLE_DESC={0} Wins: {1}
+
+// {0} : Season
+// {1} : Year
+SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
+// {0} : Title
+// {1} : Cost
+SHOP_MEDAL_DESC={0} - {1} 동메달
+SHOP_MEDALHIDDEN_DESC={0} (Hidden) - {1} 동메달
+// {0} : Language (in native text)
+// {1} : URL
+SHOP_MEDAL_URL=All Purchasables ({0}): {1}
+
+// {0} : Item name
+// {1} : Item type
+ITEM_INFO={0} ({1})
+
+ITEM_SONG=Song
+ITEM_TITLE=칭호
+ITEM_PUCHI=작은 캐릭터
+ITEM_FULLBODY=대형 전신 의상
+ITEM_HEAD=머리
+ITEM_BODY=몸
+ITEM_FACE=화장
+
+SEASON_SPRING=Spring
+SEASON_SUMMER=Summer
+SEASON_AUTUMN=Autumn
+SEASON_WINTER=Winter
 
 DISCLAIMER_USERONLY=이 채널에 메시지를 보낼 수 있는 권한이 없기 때문에 이 명령은 나만 볼 수 있습니다.
 DISCLAIMER_WIP=작업이 진행 중입니다. 일부 데이터가 누락되었거나 부정확할 수 있습니다.
+DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=제목 “{0}”이 누락되었거나 철자가 잘못되었습니다.
 DISCLAIMER_ERROR=:warning: 요청을 처리하는 동안 문제가 발생했습니다. 이 오류는 봇 관리자에게 전달되었습니다. <:miss:1346685481445752904>
+
+// Do not use "*" for this.
+DISCLAIMER_NOUSA=＊ Available in every region except North America.
+DISCLAIMER_ONLYUSA=＊ Available only in North America.
+DISCLAIMER_ONLYJAPAN=＊ Available only in Japan.
