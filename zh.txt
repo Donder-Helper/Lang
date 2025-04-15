@@ -24,6 +24,9 @@ COMMAND_STATS_DESC=Get statistic about the bot and its song database.
 COMMAND_DAN_NAME=dan
 COMMAND_DAN_DESC=Get the current Dan Dojo courses.
 
+OPTION_DANTITLE_NAME=title
+OPTION_DANTITLE_DESC=The title of the dan.
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -125,6 +128,20 @@ SEASON_SPRING=Spring
 SEASON_SUMMER=Summer
 SEASON_AUTUMN=Autumn
 SEASON_WINTER=Winter
+
+// {0}: Passing amount
+// {1}: Gold amount
+DAN_CONDITION_MORE={0} or more ({1} or more for Gold)
+DAN_CONDITION_LESS=Less than {0} (Less than {1} for Gold)
+
+DAN_CONDITION_GAUGE=Soul Gauge
+DAN_CONDITION_TOTALHIT=Total Hits
+DAN_CONDITION_BAD=Bad Count
+DAN_CONDITION_OK=Ok Count
+DAN_CONDITION_GOOD=Good Count
+DAN_CONDITION_DRUMROLL=Drumroll Count
+DAN_CONDITION_SCORE=Score
+DAN_CONDITION_COMBO=Max Combo
 
 DISCLAIMER_USERONLY=這個指令只有您能看見，因為我沒有權限傳送訊息到這個頻道。
 DISCLAIMER_WIP=工作進行中。部分資料可能遺漏或不正確。

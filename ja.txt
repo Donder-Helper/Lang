@@ -41,6 +41,9 @@ OPTION_GENRE_DESC=The specific genre that a song belongs in.
 OPTION_CAMPAIGNNAME_NAME=name
 OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
+OPTION_DANTITLE_NAME=title
+OPTION_DANTITLE_DESC=The title of the dan.
+
 // Everything else
 
 AVAILABLE_TITLE=可用性
@@ -125,6 +128,20 @@ SEASON_SPRING=春
 SEASON_SUMMER=夏
 SEASON_AUTUMN=秋
 SEASON_WINTER=冬
+
+// {0}: Passing amount
+// {1}: Gold amount
+DAN_CONDITION_MORE={0}以上（金：{1}以上）
+DAN_CONDITION_LESS={0}未満（金：{1}未満）
+
+DAN_CONDITION_GAUGE=魂ゲージ
+DAN_CONDITION_TOTALHIT=たたけた数
+DAN_CONDITION_BAD=不可
+DAN_CONDITION_OK=可
+DAN_CONDITION_GOOD=良
+DAN_CONDITION_DRUMROLL=連打数
+DAN_CONDITION_SCORE=スコア
+DAN_CONDITION_COMBO=コンボ数
 
 DISCLAIMER_USERONLY=私にはこのチャンネルにメッセージを送る権限がないため、このコマンドはあなただけに表示されます。
 DISCLAIMER_WIP=作業中です。一部のデータが欠落しているか、間違っている可能性があります。

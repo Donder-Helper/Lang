@@ -41,6 +41,9 @@ OPTION_GENRE_DESC=The specific genre that a song belongs in.
 OPTION_CAMPAIGNNAME_NAME=name
 OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
+OPTION_DANTITLE_NAME=title
+OPTION_DANTITLE_DESC=The title of the dan.
+
 // Everything else
 
 AVAILABLE_TITLE=Availability
@@ -125,6 +128,20 @@ SEASON_SPRING=Spring
 SEASON_SUMMER=Summer
 SEASON_AUTUMN=Autumn
 SEASON_WINTER=Winter
+
+// {0}: Passing amount
+// {1}: Gold amount
+DAN_CONDITION_MORE={0} or more ({1} or more for Gold)
+DAN_CONDITION_LESS=Less than {0} (Less than {1} for Gold)
+
+DAN_CONDITION_GAUGE=Soul Gauge
+DAN_CONDITION_TOTALHIT=Total Hits
+DAN_CONDITION_BAD=Bad Count
+DAN_CONDITION_OK=Ok Count
+DAN_CONDITION_GOOD=Good Count
+DAN_CONDITION_DRUMROLL=Drumroll Count
+DAN_CONDITION_SCORE=Score
+DAN_CONDITION_COMBO=Max Combo
 
 DISCLAIMER_USERONLY=This command is visible only to you because I lack permission to send messages to this channel.
 DISCLAIMER_WIP=Work in progress. Some data may be missing or incorrect.

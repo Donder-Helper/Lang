@@ -41,6 +41,9 @@ OPTION_GENRE_DESC=The specific genre that a song belongs in.
 OPTION_CAMPAIGNNAME_NAME=name
 OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 
+OPTION_DANTITLE_NAME=title
+OPTION_DANTITLE_DESC=The title of the dan.
+
 // Everything else
 
 AVAILABLE_TITLE=Availability
@@ -125,6 +128,20 @@ SEASON_SPRING=Spring
 SEASON_SUMMER=Summer
 SEASON_AUTUMN=Autumn
 SEASON_WINTER=Winter
+
+// {0}: Passing amount
+// {1}: Gold amount
+DAN_CONDITION_MORE={0} or more ({1} or more for Gold)
+DAN_CONDITION_LESS=Less than {0} (Less than {1} for Gold)
+
+DAN_CONDITION_GAUGE=Soul Gauge
+DAN_CONDITION_TOTALHIT=Total Hits
+DAN_CONDITION_BAD=Bad Count
+DAN_CONDITION_OK=Ok Count
+DAN_CONDITION_GOOD=Good Count
+DAN_CONDITION_DRUMROLL=Drumroll Count
+DAN_CONDITION_SCORE=Score
+DAN_CONDITION_COMBO=Max Combo
 
 DISCLAIMER_USERONLY=이 채널에 메시지를 보낼 수 있는 권한이 없기 때문에 이 명령은 나만 볼 수 있습니다.
 DISCLAIMER_WIP=작업이 진행 중입니다. 일부 데이터가 누락되었거나 부정확할 수 있습니다.
