@@ -134,6 +134,7 @@ SEASON_WINTER=Winter
 DAN_CONDITION_MORE={0} or more ({1} or more for Gold)
 DAN_CONDITION_LESS=Less than {0} (Less than {1} for Gold)
 
+DAN_SONGS=Songs
 DAN_CONDITION_GAUGE=Soul Gauge
 DAN_CONDITION_TOTALHIT=Total Hits
 DAN_CONDITION_BAD=Bad Count
