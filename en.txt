@@ -76,6 +76,7 @@ DIFFICULTY_NORMAL=Normal
 DIFFICULTY_HARD=Hard
 DIFFICULTY_EX=Extreme
 DIFFICULTY_HIDDEN=Hidden
+DIFFICULTY_BOTH=Extreme/Hidden
 
 GENRE_POP=Pop
 GENRE_KIDS=Kids
@@ -144,8 +145,12 @@ DAN_CONDITION_DRUMROLL=Drumroll Count
 DAN_CONDITION_SCORE=Score
 DAN_CONDITION_COMBO=Max Combo
 
+DAN_UNAVAILABLE=Information on this dan is not yet available. Please come back later.
+// {0}: Year
+DAN_CLOSED=Dan-i Dojo {0} has officially concluded. Check back later when the dojo re-opens!
+
 DISCLAIMER_USERONLY=This command is visible only to you because I lack permission to send messages to this channel.
-DISCLAIMER_WIP=Work in progress. Some data may be missing or incorrect.
+DISCLAIMER_WIP=Some data may be missing or incorrect.
 DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=The title "{0}" is either missing, or spelled incorrectly.
 DISCLAIMER_ERROR=:warning: Something went wrong while processing your request. This error has been forwarded to the bot maintainer. <:miss:1346685481445752904>

@@ -76,6 +76,7 @@ DIFFICULTY_NORMAL=ふつう
 DIFFICULTY_HARD=むずかしい
 DIFFICULTY_EX=おに
 DIFFICULTY_HIDDEN=おに（裏）
+DIFFICULTY_BOTH=おに（表裏）
 
 GENRE_POP=ポップス
 GENRE_KIDS=キッズ
@@ -144,8 +145,12 @@ DAN_CONDITION_DRUMROLL=連打数
 DAN_CONDITION_SCORE=スコア
 DAN_CONDITION_COMBO=コンボ数
 
+DAN_UNAVAILABLE=この段位に関する情報はまだありません。また後日お越しください。
+// {0}: Year
+DAN_CLOSED=段位道場{0}は終了しました。後日、道場が再開しましたら、またお越しください！
+
 DISCLAIMER_USERONLY=私にはこのチャンネルにメッセージを送る権限がないため、このコマンドはあなただけに表示されます。
-DISCLAIMER_WIP=作業中です。一部のデータが欠落しているか、間違っている可能性があります。
+DISCLAIMER_WIP=一部のデータが欠落しているか、間違っている可能性があります。
 DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=タイトル「{0}」がないか、スペルが間違っている。
 DISCLAIMER_ERROR=:warning: リクエストの処理中に何か問題が発生しました。このエラーはボットのメンテナに転送されました。 <:miss:1346685481445752904>

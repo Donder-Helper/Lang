@@ -76,6 +76,7 @@ DIFFICULTY_NORMAL=普通
 DIFFICULTY_HARD=困難
 DIFFICULTY_EX=魔王
 DIFFICULTY_HIDDEN=魔王(里)
+DIFFICULTY_BOTH=魔王(Both)
 
 GENRE_POP=流行音樂
 GENRE_KIDS=兒童音樂
@@ -144,8 +145,12 @@ DAN_CONDITION_DRUMROLL=Drumroll Count
 DAN_CONDITION_SCORE=Score
 DAN_CONDITION_COMBO=Max Combo
 
+DAN_UNAVAILABLE=Information on this dan is not yet available. Please come back later.
+// {0}: Year
+DAN_CLOSED=Dan-i Dojo {0} has officially concluded. Check back later when the dojo re-opens!
+
 DISCLAIMER_USERONLY=這個指令只有您能看見，因為我沒有權限傳送訊息到這個頻道。
-DISCLAIMER_WIP=工作進行中。部分資料可能遺漏或不正確。
+DISCLAIMER_WIP=部分資料可能遺漏或不正確。
 DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=標題「{0}」不是遺失，就是拼寫錯誤。
 DISCLAIMER_ERROR=:warning: 在處理您的要求時出錯了。此錯誤已轉送至機器人維護者。 <:miss:1346685481445752904>
