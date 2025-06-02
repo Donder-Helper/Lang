@@ -147,6 +147,7 @@ DAN_CONDITION_COMBO=コンボ数
 
 DAN_UNAVAILABLE=この段位に関する情報はまだありません。また後日お越しください。
 // {0}: Year
+DAN_CLOSED_TITLE=段位道場{0}終了
 DAN_CLOSED=段位道場{0}は終了しました。後日、道場が再開しましたら、またお越しください！
 
 DISCLAIMER_USERONLY=私にはこのチャンネルにメッセージを送る権限がないため、このコマンドはあなただけに表示されます。

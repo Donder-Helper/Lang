@@ -147,6 +147,7 @@ DAN_CONDITION_COMBO=Max Combo
 
 DAN_UNAVAILABLE=Information on this dan is not yet available. Please come back later.
 // {0}: Year
+DAN_CLOSED_TITLE=Dan-i Dojo {0} Closed
 DAN_CLOSED=Dan-i Dojo {0} has officially concluded. Check back later when the dojo re-opens!
 
 DISCLAIMER_USERONLY=이 채널에 메시지를 보낼 수 있는 권한이 없기 때문에 이 명령은 나만 볼 수 있습니다.
