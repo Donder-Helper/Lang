@@ -108,7 +108,7 @@ SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
 // {0} : Title
 // {1} : Cost
 SHOP_MEDAL_DESC={0} - {1} 동메달
-SHOP_MEDALHIDDEN_DESC={0} (Hidden) - {1} 동메달
+SHOP_MEDALHIDDEN_DESC={0} <:ura:1345694858421211167> - {1} 동메달
 // {0} : Language (in native text)
 // {1} : URL
 SHOP_MEDAL_URL=All Purchasables ({0}): {1}

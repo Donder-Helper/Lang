@@ -108,7 +108,7 @@ SHOP_MEDAL_NAME=どんメダルショップ{1}{0}
 // {0} : Title
 // {1} : Cost
 SHOP_MEDAL_DESC={0}・{1}どんメダル
-SHOP_MEDALHIDDEN_DESC={0}（裏）・{1}どんメダル
+SHOP_MEDALHIDDEN_DESC={0} <:ura:1345694858421211167>・{1}どんメダル
 // {0} : Language (in native text)
 // {1} : URL
 SHOP_MEDAL_URL=すべての曲（{0}）： {1}
