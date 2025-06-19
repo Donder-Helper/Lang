@@ -24,6 +24,9 @@ COMMAND_STATS_DESC=Get statistic about the bot and its song database.
 COMMAND_DAN_NAME=dan
 COMMAND_DAN_DESC=Get the current Dan Dojo courses.
 
+COMMAND_MISSING_NAME=missing
+COMMAND_MISSING_DESC=Lists all songs with missing note counts and region status.
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -149,6 +152,9 @@ DAN_UNAVAILABLE=Information on this dan is not yet available. Please come back l
 // {0}: Year
 DAN_CLOSED_TITLE=Dan-i Dojo {0} Closed
 DAN_CLOSED=Dan-i Dojo {0} has officially concluded. Check back later when the dojo re-opens!
+
+MISSING_NOTES=Songs with missing Note Counts
+MISSING_REGION=Songs with missing Region Status
 
 DISCLAIMER_USERONLY=This command is visible only to you because I lack permission to send messages to this channel.
 DISCLAIMER_WIP=Some data may be missing or incorrect.
