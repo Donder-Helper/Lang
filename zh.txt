@@ -27,6 +27,9 @@ COMMAND_DAN_DESC=Get the current Dan Dojo courses.
 COMMAND_MISSING_NAME=missing
 COMMAND_MISSING_DESC=Lists all songs with missing note counts and region status.
 
+COMMAND_INVITE_NAME=invite
+COMMAND_INVITE_DESC=Add me to your server, or add me as an app!
+
 // Command Options
 
 OPTION_TITLE_NAME=title
@@ -155,6 +158,7 @@ DAN_CLOSED=Dan-i Dojo {0} has officially concluded. Check back later when the do
 
 MISSING_NOTES=Songs with missing Note Counts
 MISSING_REGION=Songs with missing Region Status
+MISSING_EVERYWHERE=Songs unavailable everywhere
 
 DISCLAIMER_USERONLY=這個指令只有您能看見，因為我沒有權限傳送訊息到這個頻道。
 DISCLAIMER_WIP=部分資料可能遺漏或不正確。
@@ -166,3 +170,6 @@ DISCLAIMER_ERROR=:warning: 在處理您的要求時出錯了。此錯誤已轉�
 DISCLAIMER_NOUSA=＊ Available in every region except North America.
 DISCLAIMER_ONLYUSA=＊ Available only in North America.
 DISCLAIMER_ONLYJAPAN=＊ Available only in Japan.
+
+// {0}: Discord app invite URL
+INVITE_DESC=You can add me to your own server, or add me as an app that you can call at any time!\nClick this URL to invite me: {0}
