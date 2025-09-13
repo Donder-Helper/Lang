@@ -1,3 +1,5 @@
+// DO NOT RENAME THE VARIABLES! Only change its values to the right of the '=' symbol.
+
 // Command Data
 
 COMMAND_RANDOM_NAME=random
@@ -19,7 +21,7 @@ COMMAND_ABOUT_NAME=about
 COMMAND_ABOUT_DESC=Information about the bot and its resources.
 
 COMMAND_STATS_NAME=stats
-COMMAND_STATS_DESC=Get statistic about the bot and its song database.
+COMMAND_STATS_DESC=Get statistics about the bot and its song database.
 
 COMMAND_DAN_NAME=dan
 COMMAND_DAN_DESC=Get the current Dan Dojo courses.
@@ -29,6 +31,9 @@ COMMAND_MISSING_DESC=Lists all songs with missing note counts and region status.
 
 COMMAND_INVITE_NAME=invite
 COMMAND_INVITE_DESC=Add me to your server, or add me as an app!
+
+COMMAND_HIROBA_NAME=hiroba
+COMMAND_HIROBA_DESC=Get information about using Donder Hiroba. (English Only・英語のみ)
 
 // Command Options
 
@@ -50,7 +55,21 @@ OPTION_CAMPAIGNNAME_DESC=The name of a currently active campaign.
 OPTION_DANTITLE_NAME=title
 OPTION_DANTITLE_DESC=The title of the dan.
 
+OPTION_GUIDE_NAME=guide
+OPTION_GUIDE_DESC=Select a specific area of Donder Hiroba to read about.
+
 // Everything else
+
+REGION_JAPAN=日本
+REGION_ASIA=アシア
+REGION_OCEANIA=その他のアジア・オセアニア
+REGION_USA=北米
+REGION_CHINA=中国
+
+// {0}: Region name
+// {1}: Status as emoji
+// {2}: Status as text
+AVAILABLE_REGION={0}：{1} {2}
 
 AVAILABLE_TITLE=可用性
 
@@ -68,12 +87,6 @@ AVAILABLE_QRCODE=QRコード
 // Oni-Ura or not. A QR code scan is mandatory to obtain the Oni-Ura difficulty.
 AVAILABLE_TRANSFER=パートナーから入手
 AVAILABLE_UNKNOWN=未知
-
-AVAILABLE_R_JAPAN=日本：{0} {1}
-AVAILABLE_R_ASIA=アシア：{0} {1}
-AVAILABLE_R_OCEANIA=その他のアジア・オセアニア：{0} {1}
-AVAILABLE_R_NORTHAMERICA=北米：{0} {1}
-AVAILABLE_R_CHINA=中国：{0} {1}
 
 DIFFICULTY_TITLE=難易
 
