@@ -154,6 +154,9 @@ SEASON_WINTER=Winter
 DAN_CONDITION_MORE={0} or more ({1} or more for Gold)
 DAN_CONDITION_LESS=Less than {0} (Less than {1} for Gold)
 
+// {0}: Combined note count of all 3 songs
+DAN_NOTECOUNT=Note Count: {0}
+
 DAN_SONGS=Songs
 DAN_CONDITION_GAUGE=Soul Gauge
 DAN_CONDITION_TOTALHIT=Total Hits

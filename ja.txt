@@ -154,6 +154,9 @@ SEASON_WINTER=冬
 DAN_CONDITION_MORE={0}以上（金：{1}以上）
 DAN_CONDITION_LESS={0}未満（金：{1}未満）
 
+// {0}: Combined note count of all 3 songs
+DAN_NOTECOUNT=ノーツ数: {0}
+
 DAN_SONGS=Songs
 DAN_CONDITION_GAUGE=魂ゲージ
 DAN_CONDITION_TOTALHIT=たたけた数
