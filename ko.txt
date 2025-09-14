@@ -107,15 +107,14 @@ GENRE_CLASSICAL=클래식
 GENRE_NAMCO=남코 오리지널
 GENRE_UNKNOWN=Unknown
 
-URL_MISSING=(Unavailable <:miss:1346685481445752904>)
+// {0} : Miss icon as emote
+URL_MISSING=(Unavailable {0})
 
 // {0} : Time remaining (as int timestamp)
 CAMPAIGN_AVAILABLE=Available until <t:{0}:F> (<t:{0}:R>)
 // {0} : Season
 // {1} : Year
 CAMPAIGN_SEASON_OUTFIT_NAME=Oodles of Outfits Campaign {0} {1}
-
-CAMPAIGN_APRILFOOLS2025_NAME=Attack of Dark Machina! (April Fools 2025)
 
 // {0} : # of Wins
 // {1} : ITEM_INFO value
@@ -127,7 +126,10 @@ SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
 // {0} : Title
 // {1} : Cost
 SHOP_MEDAL_DESC={0} - {1} 동메달
-SHOP_MEDALHIDDEN_DESC={0} <:ura:1345694858421211167> - {1} 동메달
+// {0} : Title
+// {1} : Hidden difficulty as emote
+// {2} : Cost
+SHOP_MEDALHIDDEN_DESC={0} {1} - {2} 동메달
 // {0} : Language (in native text)
 // {1} : URL
 SHOP_MEDAL_URL=All Purchasables ({0}): {1}
@@ -178,9 +180,10 @@ MISSING_EVERYWHERE=Songs unavailable everywhere
 
 DISCLAIMER_USERONLY=이 채널에 메시지를 보낼 수 있는 권한이 없기 때문에 이 명령은 나만 볼 수 있습니다.
 DISCLAIMER_WIP=일부 데이터가 누락되었거나 부정확할 수 있습니다.
-DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
+DISCLAIMER_STATS=이러한 통계는 공식 데이터를 반영하지 않을 수 있습니다.
 DISCLAIMER_MISSING=제목 “{0}”이 누락되었거나 철자가 잘못되었습니다.
-DISCLAIMER_ERROR=:warning: 요청을 처리하는 동안 문제가 발생했습니다. 이 오류는 봇 관리자에게 전달되었습니다. <:miss:1346685481445752904>
+// {0} : Miss icon as emote
+DISCLAIMER_ERROR=:warning: 요청을 처리하는 동안 문제가 발생했습니다. 이 오류는 봇 관리자에게 전달되었습니다. {0}
 
 // Do not use "*" for this.
 DISCLAIMER_NOUSA=＊ Available in every region except North America.

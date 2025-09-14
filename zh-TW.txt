@@ -107,15 +107,14 @@ GENRE_CLASSICAL=古典音樂
 GENRE_NAMCO=NAMCO原創音樂
 GENRE_UNKNOWN=未知
 
-URL_MISSING=(Unavailable <:miss:1346685481445752904>)
+// {0} : Miss icon as emote
+URL_MISSING=(Unavailable {0})
 
 // {0} : Time remaining (as int timestamp)
 CAMPAIGN_AVAILABLE=Available until <t:{0}:F> (<t:{0}:R>)
 // {0} : Season
 // {1} : Year
 CAMPAIGN_SEASON_OUTFIT_NAME=Oodles of Outfits Campaign {0} {1}
-
-CAMPAIGN_APRILFOOLS2025_NAME=Attack of Dark Machina! (April Fools 2025)
 
 // {0} : # of Wins
 // {1} : ITEM_INFO value
@@ -127,7 +126,10 @@ SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
 // {0} : Title
 // {1} : Cost
 SHOP_MEDAL_DESC={0} - {1}咚幣
-SHOP_MEDALHIDDEN_DESC={0} <:ura:1345694858421211167> - {1}咚幣
+// {0} : Title
+// {1} : Hidden difficulty as emote
+// {2} : Cost
+SHOP_MEDALHIDDEN_DESC={0} {1} - {2}咚幣
 // {0} : Language (in native text)
 // {1} : URL
 SHOP_MEDAL_URL=All Purchasables ({0}): {1}
@@ -178,9 +180,10 @@ MISSING_EVERYWHERE=Songs unavailable everywhere
 
 DISCLAIMER_USERONLY=這個指令只有您能看見，因為我沒有權限傳送訊息到這個頻道。
 DISCLAIMER_WIP=部分資料可能遺漏或不正確。
-DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
+DISCLAIMER_STATS=這些統計數據可能無法反映官方數據。
 DISCLAIMER_MISSING=標題「{0}」不是遺失，就是拼寫錯誤。
-DISCLAIMER_ERROR=:warning: 在處理您的要求時出錯了。此錯誤已轉送至機器人維護者。 <:miss:1346685481445752904>
+// {0} : Miss icon as emote
+DISCLAIMER_ERROR=:warning: 在處理您的要求時出錯了。此錯誤已轉送至機器人維護者。 {0}
 
 // Do not use "*" for this.
 DISCLAIMER_NOUSA=＊ Available in every region except North America.

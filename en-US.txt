@@ -107,15 +107,14 @@ GENRE_CLASSICAL=Classical
 GENRE_NAMCO=Namco Original
 GENRE_UNKNOWN=Unknown
 
-URL_MISSING=(Unavailable <:miss:1346685481445752904>)
+// {0} : Miss icon as emote
+URL_MISSING=(Unavailable {0})
 
 // {0} : Time remaining (as int timestamp)
 CAMPAIGN_AVAILABLE=Available until <t:{0}:F> (<t:{0}:R>)
 // {0} : Season
 // {1} : Year
 CAMPAIGN_SEASON_OUTFIT_NAME=Oodles of Outfits Campaign {0} {1}
-
-CAMPAIGN_APRILFOOLS2025_NAME=Attack of Dark Machina! (April Fools 2025)
 
 // {0} : # of Wins
 // {1} : ITEM_INFO value
@@ -127,7 +126,10 @@ SHOP_MEDAL_NAME=Don Medal Shop {0} {1}
 // {0} : Title
 // {1} : Cost
 SHOP_MEDAL_DESC={0} - {1} Medals
-SHOP_MEDALHIDDEN_DESC={0} <:ura:1345694858421211167> - {1} Medals
+// {0} : Title
+// {1} : Hidden difficulty as emote
+// {2} : Cost
+SHOP_MEDALHIDDEN_DESC={0} {1} - {2} Medals
 // {0} : Language (in native text)
 // {1} : URL
 SHOP_MEDAL_URL=All Purchasables ({0}): {1}
@@ -180,7 +182,8 @@ DISCLAIMER_USERONLY=This command is visible only to you because I lack permissio
 DISCLAIMER_WIP=Some data may be missing or incorrect.
 DISCLAIMER_STATS=The bot's statistics might not reflect the official data.
 DISCLAIMER_MISSING=The title "{0}" is either missing, or spelled incorrectly.
-DISCLAIMER_ERROR=:warning: Something went wrong while processing your request. This error has been forwarded to the bot maintainer. <:miss:1346685481445752904>
+// {0} : Miss icon as emote
+DISCLAIMER_ERROR=:warning: Something went wrong while processing your request. This error has been forwarded to the bot maintainer. {0}
 
 // Do not use "*" for this.
 DISCLAIMER_NOUSA=＊ Available in every region except North America.
